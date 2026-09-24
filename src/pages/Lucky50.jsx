@@ -87,8 +87,8 @@ export default function Lucky50() {
               <Link to="/leaderboard" className="btn-gold">
                 <Trophy className="h-4 w-4" /> Qualified Leaders
               </Link>
-              <Link to="/my-progress" className="btn-ghost">
-                <Users className="h-4 w-4" /> My Progress
+              <Link to="/offers" className="btn-ghost">
+                <Gem className="h-4 w-4" /> All Offers
               </Link>
             </div>
           </motion.div>

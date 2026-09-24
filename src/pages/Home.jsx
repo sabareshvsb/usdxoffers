@@ -2,14 +2,12 @@ import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import {
   ArrowRight,
-  BadgeCheck,
   CarFront,
   Gift,
   Shield,
   Sparkles,
   Trophy,
   Users,
-  TrendingUp,
   Ticket,
   Gem,
 } from 'lucide-react'
@@ -107,9 +105,6 @@ export default function Home() {
               <Link to="/leaderboard" className="btn-ghost">
                 <Trophy className="h-4 w-4" /> Leaderboard
               </Link>
-              <Link to="/my-progress" className="btn-blue">
-                <TrendingUp className="h-4 w-4" /> My Progress
-              </Link>
             </div>
           </motion.div>
         </div>
@@ -176,32 +171,6 @@ export default function Home() {
             <Link to="/leaderboard" className="btn-ghost">
               Open Full Leaderboard <ArrowRight className="h-4 w-4" />
             </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* ============ CTA BANNER ============ */}
-      <section className="mx-auto max-w-7xl px-4 pb-24 md:px-8">
-        <div className="card-3d relative overflow-hidden rounded-[2rem] p-10 text-center md:p-16">
-          <span className="top-glow" />
-          <GoldDust density={24} />
-          <div className="relative">
-            <BadgeCheck className="mx-auto h-12 w-12 text-gold-300" />
-            <h2 className="mt-5 font-display text-3xl font-extrabold text-white md:text-5xl">
-              Ready to <span className="gold-text">Dream • Draw • Win</span>?
-            </h2>
-            <p className="mx-auto mt-4 max-w-xl text-sm leading-relaxed text-white/60 md:text-base">
-              Your direct business volume already counts toward this campaign.
-              Check your progress, track the leaderboard, and aim for the top.
-            </p>
-            <div className="mt-8 flex flex-wrap justify-center gap-3">
-              <Link to="/my-progress" className="btn-gold">
-                <TrendingUp className="h-4 w-4" /> My Progress
-              </Link>
-              <Link to="/lucky-50" className="btn-ghost">
-                Lucky 50 Details
-              </Link>
-            </div>
           </div>
         </div>
       </section>

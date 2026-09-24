@@ -53,9 +53,6 @@ export default function Navbar() {
         </div>
 
         <div className="hidden items-center gap-3 lg:flex">
-          <Link to="/leaderboard" className="btn-ghost !px-5 !py-2 !text-[0.7rem]">
-            My Progress
-          </Link>
           <Link to="/offers" className="btn-gold !px-5 !py-2 !text-[0.7rem]">
             <Gem className="h-4 w-4" /> View Offers
           </Link>
@@ -82,7 +79,6 @@ export default function Navbar() {
             <div className="flex flex-col gap-1 px-5 py-4">
               {[
                 ...links,
-                { to: '/my-progress', label: 'My Progress' },
                 { to: '/admin/login', label: 'Admin' },
               ].map((l) => (
                 <NavLink

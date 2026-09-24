@@ -44,7 +44,6 @@ export default function App() {
             <Route path="/triple-car" element={<TripleCar />} />
             <Route path="/leaderboard" element={<Leaderboard />} />
             <Route path="/leader/:id" element={<LeaderProfile />} />
-            <Route path="/my-progress" element={<Leaderboard />} />
             <Route path="*" element={<NotFound />} />
           </Route>
           <Route path="/admin/login" element={<AdminLogin />} />
