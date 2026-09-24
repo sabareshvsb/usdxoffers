@@ -8,6 +8,7 @@ import {
   Sparkles,
   Trophy,
   Users,
+  TrendingUp,
   Ticket,
   Gem,
 } from 'lucide-react'
